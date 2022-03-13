@@ -1,4 +1,4 @@
-import Static from './../StaticComponent'
+import Static from '../StaticComponent'
 export default function Event(){
     return (
         <h1>

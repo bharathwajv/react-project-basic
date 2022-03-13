@@ -1,5 +1,5 @@
 import { Component  } from "react";
-import Static from './../StaticComponent'
+import Static from '../StaticComponent'
 export default class ClassComponent extends Component{
     render(){
         return (
