@@ -4,7 +4,7 @@ import './App.css';
 // import ClassComponentUsingState from  './components/State/ClassComponent'
 // import FuncCompEventHandling from './components/EvevntHandling/FunctionComponent'
 // import ClassCompEventHandling from './components/EvevntHandling/FunctionComponent'
-// import Users from './components/Apis/Users';
+ import Users from './components/Apis/Users';
 import Muibutton from './mui/Muibutton';
 import Muiappbar from './mui/Muiappbar';
 function App() {
@@ -24,11 +24,11 @@ function App() {
 
       {/* <ClassCompEventHandling></ClassCompEventHandling> */}
 
-      {/* <Users></Users> */}
+     <Users></Users> 
 
-      <Muibutton></Muibutton>
+      {/* <Muibutton></Muibutton>
       
-      <Muiappbar></Muiappbar>
+      <Muiappbar></Muiappbar>  */}
 
     </div>
   );

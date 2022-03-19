@@ -9,11 +9,15 @@ const instance = axios.create({
   });
 
 export default class Users extends Component{
-    componentDidMount(){
+
+//imp 1st call to constructor then componentDidMount
+
+    componentDidMount(){  //on initialized call in class component
+        
         this.GetUsers()
     }
-    constructor() //constructor ocurrent class
-    {
+    constructor() //constructor current class
+    { 
             super(); 
             this.state = { users : []} 
             this.setState({
