@@ -1,8 +1,10 @@
 import FunctionalHookComponent from './hooks/FunctionalHookComponent'
 import ClassStateComponentForComparision from './hooks/ClassStateComponentForComparision'
+import AllHooks from './hooks/AllHooks'
 const Hooks =() => {
   return (<>
-    <FunctionalHookComponent/>
+    {/* <FunctionalHookComponent/> */}
+    <AllHooks alert="props testing"/>
     {/* <ClassStateComponentForComparision/> */}
     </>
   );
